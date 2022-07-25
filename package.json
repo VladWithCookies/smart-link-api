@@ -1,0 +1,20 @@
+{
+  "name": "smart-link-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "prisma": "^4.1.1"
+  }
+}

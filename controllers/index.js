@@ -1,0 +1,1 @@
+export { SmartLinksController } from './smartLinks';
